@@ -136,3 +136,6 @@ And we can able to see the history of mails here:
 
 
 ![alt text](https://github.com/nithinraaj27/Gmail-scheduler/blob/master/Images/History.jpeg)
+
+
+That's all the simple mailer app.
