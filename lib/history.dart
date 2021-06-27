@@ -49,8 +49,8 @@ class _historyState extends State<history> {
                         Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> ghg()));
                       });
                     },
-                    child: Icon(Icons.home)),
-                text: Text("Home"),
+                    child: Icon(Icons.login)),
+                text: Text("Login "),
                 frontColor: Color(0xffF0A9A9),
               backColor: Color(0xff4BD0D7),
             ),
@@ -61,8 +61,8 @@ class _historyState extends State<history> {
                         Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> Home()));
                       });
                     },
-                    child: Icon(Icons.home)),
-                text: Text("Home"),
+                    child: Icon(Icons.mail)),
+                text: Text("Mailer"),
                 frontColor: Color(0xffF0A9A9),
               backColor: Color(0xff4BD0D7),
             ),

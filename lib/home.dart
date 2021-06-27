@@ -56,14 +56,14 @@ class _ghgState extends State<ghg> {
 
 
   sendmail() async {
-    String username = "nithinraajjp@gmail.com";
-    String password = "gayathrijp";
+    String username = "sample@gmail.com"; //Use your gmail account
+    String password = "Password"; // Use your password
 
     String head1 = ss.head1.toString();
     String head2 = ss.head2.toString();
     final smtpServer = gmail(username, password);
     final message = Message()
-      ..from = Address(username, "Nithin Raaj")
+      ..from = Address(username, "Sample Name") //Sample name
       ..recipients.add(ss.sendermail)
       ..subject = '$ss.msg ${DateTime.now()}'
       ..text = "subject"

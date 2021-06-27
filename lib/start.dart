@@ -78,7 +78,7 @@ class _startState extends State<start> {
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "Another title page",
+          title: "Make use of it",
           body: "Another beautiful body text for this example onboarding",
           image: _buildImage('mailbig.jpg'),
           footer: ElevatedButton(
